@@ -10,7 +10,7 @@ if($message == "/start") {
 }
 
 function sendMessage($chat_id, $message) {
-    $apiToken = "7930320812:AAH264MiuNQHIF7K18lb7Cf7R2eZlfKK1fw";
+    $apiToken = "7662559742:AAE9-TDtm1FlCCMTgRTO_eE3rV1UDuxL5nQ";
     $url = "https://api.telegram.org/bot$apiToken/sendMessage?chat_id=$chat_id&text=".urlencode($message);
     file_get_contents($url);
 }
